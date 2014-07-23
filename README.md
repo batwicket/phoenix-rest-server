@@ -1,9 +1,12 @@
-This is a simple demonstration of a REST HTTP server with a 
-minimal, supervised, non-persistent Model process. 
+phoenix-rest-server is a barebones REST HTTP server  
+built using the Elixir Phoenix Framework. It uses Erlang 
+OTP to provide a simple, crash-resistant, in-memory Model 
+process which may be helpful to developers just getting 
+started. 
 
 Hopefully it is easy to extend.
 
-To start your new Phoenix application you have to:
+To start the application:
 
 1. Install dependencies with `mix deps.get`
 2. Run tests with `mix test`
